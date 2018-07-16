@@ -3,7 +3,9 @@ html {
   height: 100%;
   color: #242423;
   line-height: 1.8;
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: 'Ubuntu Mono', monospace;
+  font-family: 'Quantico', sans-serif;
+  background-color: Black;
 }
 
 h1 {
@@ -18,7 +20,8 @@ h2 {
 }
 
 h3 {
-  font-size: 24px
+  font-size: 24px;
+  color: Gold;
 }
 
 h4 {
@@ -34,47 +37,54 @@ h6 {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Poppins", Arial, sans-serif;
+  font-family: 'Quantico', sans-serif;
   margin: 10px 0
 }
 
 p {
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: 'Ubuntu Mono', monospace;
+  color: Gold;
 }
 
 .bar-color{
-  background-color: #BBBBBC;
-  color: white;
+  background-color: #02010A;
+  color: Gold;
 }
 
 #myNavbar {
   font-size: 20px;
-  color: #242423;
+  color: Gold;
 }
 
 #myNavbar a {
   text-decoration: none;
 }
 
+/* Top left tabs */ 
 #myNavbar a:hover {
   text-decoration: none;
-  background-color: #BBBBBC;
-  color: white;
+  background-color: #02010A;
+  color: whitesmoke;
 }
 
 .nav-change {
-  background-color: white;
+  background-color: #02010A;
+}
+
+/* Background Color */
+#about{
+    background-color: #04052E;
 }
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url('../img/notebook.jpg');
+  background-image: url('../img/Tartus.jpg');
   min-height: 100%;
 }
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-  background-image: url('../img/code.jpg');
+  background-image: url('../img/space.jpeg');
   min-height: 400px;
 }
 
@@ -109,7 +119,7 @@ p {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #616161;
+  background-color: #04052E;
   color: white;
   overflow: hidden;
   width: 100%;
