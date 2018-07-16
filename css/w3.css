@@ -12,8 +12,8 @@ html {
   -webkit-text-size-adjust: 100%
 }
 
-body {
-  margin: 0
+body { 
+  margin:
 }
 
 article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
@@ -25,7 +25,7 @@ audio, canvas, progress, video {
 }
 
 img {
-  border-style: none
+  border-style: dotted solid;
 }
 
 img {
@@ -42,7 +42,7 @@ button, input, select, textarea {
 }
 
 small {
-  font-size: 80%
+  font-size: 100%
 }
 
 button, input {
@@ -206,8 +206,7 @@ html {
 }
 
 .w3-content {
-  max-width: 980px;
-  margin: auto
+    
 }
 
 .w3-rest {

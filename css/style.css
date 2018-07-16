@@ -3,53 +3,53 @@ html {
   height: 100%;
   color: #242423;
   line-height: 1.8;
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: Cookie, ACME, "Chela+One", Chewy, Merienda;
 }
 
 h1 {
-  font-size: 36px;
-  color: white;
+  font-size: 30px;
+  color: red;
   font-weight: 800;
 }
 
 h2 {
   font-size: 30px;
-  color: white;
+  color: red;
 }
 
 h3 {
-  font-size: 24px
+  font-size: 35px
 }
 
 h4 {
-  font-size: 20px
+  font-size: 35px
 }
 
 h5 {
-  font-size: 18px
+  font-size: 35px
 }
 
 h6 {
-  font-size: 16px
+  font-size: 80px
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Poppins", Arial, sans-serif;
-  margin: 10px 0
+  font-family: Cookie, "ACME", Chela+One, Chewy, Merienda;
+  margin: 20px 
 }
 
 p {
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: Cookie, ACME, Chela+One, Chewy, "Merienda";
 }
 
 .bar-color{
-  background-color: #BBBBBC;
+  background-color: red;
   color: white;
 }
 
 #myNavbar {
-  font-size: 20px;
-  color: #242423;
+  font-size: 40px;
+  color: red;
 }
 
 #myNavbar a {
@@ -57,30 +57,44 @@ p {
 }
 
 #myNavbar a:hover {
-  text-decoration: none;
-  background-color: #BBBBBC;
-  color: white;
+  text-decoration: line-through;
+  background-color: yellow;
+  color: black;
 }
 
 .nav-change {
-  background-color: white;
+  background-color: black;
 }
+
+#about {background-color: black;
+      color: red;
+      font-size: 30px;}
+
+#contact {
+    background-color: black;
+    color: red;
+    font-size: 30px;
+    }
+#portfolio {background-color: black;
+       color: red;
+       font-size: 30px;}
+
 
 /* First image (Logo. Full height) */
 .bgimg-1 {
-  background-image: url('../img/notebook.jpg');
+  background-image: url(https://images.unsplash.com/photo-1484820540004-14229fe36ca4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=693f53d7436d1b2806e4ee7cb277a95e&auto=format&fit=crop&w=2592&q=60);
   min-height: 100%;
 }
 
 /* Second image (Portfolio) */
 .bgimg-2 {
-  background-image: url('../img/code.jpg');
+  background-image: url(https://images.unsplash.com/photo-1457530619060-40399c0744bc?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ab0f16d0dfa358bb8da7e662569d490b&auto=format&fit=crop&w=2767&q=80);
   min-height: 400px;
 }
 
 /* Third image (Contact) */
 .bgimg-3 {
-  background-image: url('../img/arcade.jpg');
+  background-image: url(https://images.unsplash.com/photo-1513280562555-7ebe958b6f02?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5c8daf20b27558f7ce58602ca1b569e6&auto=format&fit=crop&w=2592&q=60);
   min-height: 400px;
 }
 
@@ -109,12 +123,12 @@ p {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #616161;
-  color: white;
+  background-color: yellow;
+  color: black;
   overflow: hidden;
   width: 100%;
   height: 0;
-  transition: .5s ease;
+  transition: ease;
   padding: 0px 2px;
 }
 
